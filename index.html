@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Blue Breeze Resort</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Header & Navigation -->
+  <header>
+    <nav class="navbar">
+      <div class="logo">Blue Breeze Resort</div>
+      <ul class="nav-links">
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#rooms">Rooms</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#booking">Booking</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="hero">
+    <div class="hero-content">
+      <h1>Welcome to Blue Breeze Resort</h1>
+      <p>Experience luxury and tranquility by the sea</p>
+      <a href="#booking" class="btn">Book Now</a>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about">
+    <div class="container">
+      <h2>About Us</h2>
+      <p>
+        Blue Breeze Resort offers a unique blend of modern luxury and serene relaxation.
+        Enjoy our world-class amenities, gourmet dining, and breathtaking views.
+      </p>
+    </div>
+  </section>
+
+  <!-- Rooms Section -->
+  <section id="rooms">
+    <div class="container">
+      <h2>Our Rooms</h2>
+      <div class="rooms-grid">
+        <div class="room-card">
+          <img src="images/room1.jpg" alt="Deluxe Room" />
+          <h3>Deluxe Room</h3>
+          <p>Elegant and spacious with stunning views.</p>
+        </div>
+        <div class="room-card">
+          <img src="images/room2.jpg" alt="Suite" />
+          <h3>Suite</h3>
+          <p>Experience luxury at its finest in our suites.</p>
+        </div>
+        <div class="room-card">
+          <img src="images/room3.jpg" alt="Ocean View Room" />
+          <h3>Ocean View Room</h3>
+          <p>Wake up to the serene sounds of the ocean.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Gallery Section -->
+  <section id="gallery">
+    <div class="container">
+      <h2>Gallery</h2>
+      <div class="gallery-grid">
+        <img src="images/gallery1.jpg" alt="Gallery Image 1" />
+        <img src="images/gallery2.jpg" alt="Gallery Image 2" />
+        <img src="images/gallery3.jpg" alt="Gallery Image 3" />
+        <img src="images/gallery4.jpg" alt="Gallery Image 4" />
+      </div>
+    </div>
+  </section>
+
+  <!-- Booking Section -->
+  <section id="booking">
+    <div class="container">
+      <h2>Book Your Stay</h2>
+      <form id="booking-form">
+        <div class="form-group">
+          <label for="checkin">Check-In Date</label>
+          <input type="date" id="checkin" name="checkin" required />
+        </div>
+        <div class="form-group">
+          <label for="checkout">Check-Out Date</label>
+          <input type="date" id="checkout" name="checkout" required />
+        </div>
+        <div class="form-group">
+          <label for="guests">Guests</label>
+          <input type="number" id="guests" name="guests" min="1" value="1" required />
+        </div>
+        <button type="submit" class="btn">Book Now</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <div class="container">
+      <h2>Contact Us</h2>
+      <div class="contact-info">
+        <p>Email: info@bluebreeze.com</p>
+        <p>Phone: +1 (555) 123-4567</p>
+        <p>Address: 123 Ocean Drive, Paradise City</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 Blue Breeze Resort. All Rights Reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
